@@ -2,7 +2,6 @@
   "name": "angular2-quickstart",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +11,13 @@
   "dependencies": {
     "angular2": "2.0.0-alpha.44",
     "systemjs": "0.19.2"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  },
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
   }
 }
