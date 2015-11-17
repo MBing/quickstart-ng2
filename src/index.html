@@ -5,9 +5,9 @@
 		<script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
 		<script>
 			System.config({
-				packages: { defaultExtension: 'js' }
+				packages: { 'app': { defaultExtension: 'js' }}
 			});
-			System.import('./app/app.ts')
+			System.import('app/app')
 		</script>
 	</head>
 
