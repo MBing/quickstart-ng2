@@ -1,4 +1,4 @@
-import {bootstrap, Component} from 'angular2/angular2';
+import {Foo} from './app/foo';
 
 @Component({
 	selector: 'my-app',

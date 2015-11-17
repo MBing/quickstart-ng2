@@ -6,17 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
         case 4: return decorators.reduceRight(function(o, d) { return (d && d(target, key, o)) || o; }, desc);
     }
 };
-var angular2_1 = require('angular2/angular2');
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
-        angular2_1.Component({
+        Component({
             selector: 'my-app',
             template: '<h1>My First Angular 2 App</h1>'
         })
     ], AppComponent);
     return AppComponent;
 })();
-angular2_1.bootstrap(AppComponent);
+bootstrap(AppComponent);
 //# sourceMappingURL=app.js.map
